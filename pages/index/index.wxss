@@ -1,0 +1,10 @@
+/**index.wxss**/
+.btn-search{
+  margin-top: 30px;
+}
+.btn-clear{
+  margin-left: 10px;
+}
+.usermotto {
+  margin-top: 200px;
+}
