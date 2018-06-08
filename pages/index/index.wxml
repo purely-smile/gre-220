@@ -1,7 +1,7 @@
 <!--index.wxml-->
 <view class="container">
   <view class="section">
-    <input bindinput='onChange' value="{{keyword}}" focus confirm-type="search" type='number' placeholder='答案序号'></input>
+    <input bindinput='onChange' value="{{keyword}}" focus="{{focus}}" confirm-type="search" type='number' placeholder='答案序号'></input>
     <button bindtap='search' class='btn-search' size='mini'>查询</button>
     <button bindtap='clear' size="mini" class='btn-clear' type="warn">清除</button>
   </view>

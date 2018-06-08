@@ -5,7 +5,8 @@ const answerArr = [["C"], ["C", "A", "C"], ["E", "AC"], ["E", "There", "is a"], 
 Page({
   data: {
     answer:'',
-    keyword:null
+    keyword:null,
+    focus:true
   },
   onLoad: function () {
 
@@ -26,7 +27,8 @@ Page({
   clear:function(){
     this.setData({
       answer:'',
-      keyword:null
+      keyword:null,
+      focus:true
     })
   },
   onChange:function(e){
