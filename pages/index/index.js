@@ -17,7 +17,8 @@ Page({
        this.showError("请输入1-220数字");
        return this.setData({
          keyword:null,
-         answer:''
+         answer:'',
+         focus:true
        });
     }
     this.setData({
